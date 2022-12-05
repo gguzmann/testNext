@@ -8,9 +8,3 @@ export const pool = createPool({
     database: process.env.DB_NAME
 
 })
-
-
-// host: database-ceibo.c37dfqavir2c.us-east-2.rds.amazonaws.com
-// user: admin
-// pw: Admin1234
-// port: '3306

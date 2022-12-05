@@ -62,7 +62,7 @@ const ventas = ({ data }) => {
 }
 
 export const getServerSideProps = async (context) => {
-  const response = await fetch('http://localhost:3000/api/test')
+  const response = await fetch('https://test-next-gilt.vercel.app/api/facturas')
   const data = await response.json()
   return {
     props: {
