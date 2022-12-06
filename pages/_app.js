@@ -5,7 +5,7 @@ function MyApp({ Component, pageProps }) {
 
   const darkTheme = createTheme({
     palette: {
-      mode: 'dark',
+      mode: 'light',
     },
   });
 
@@ -13,12 +13,12 @@ function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
-      <Box sx={{display:'flex'}}>
-          <Navbar />
-          <Box sx={{m:5, width:'90%'}}>
+      <Box sx={{ display: 'flex', height: '100vh', overflow:'hidden' }}>
+        <Navbar />
+        <Box sx={{ m: 5, width: '90%' }}>
 
           <Component {...pageProps} />
-          </Box>
+        </Box>
       </Box>
     </ThemeProvider>
   )

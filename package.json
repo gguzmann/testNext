@@ -13,6 +13,7 @@
     "@emotion/styled": "^11.10.5",
     "@mui/icons-material": "^5.10.16",
     "@mui/material": "^5.10.16",
+    "@nextui-org/react": "^1.0.0-beta.10",
     "axios": "^1.2.0",
     "dotenv": "^16.0.3",
     "mysql2": "^2.3.3",
